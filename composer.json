@@ -1,0 +1,22 @@
+{
+  "name": "sseidelmann/static-info-tables-de",
+  "description": "German (de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+  "version": "6.3.9",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Sebastian Seidelmann",
+      "role": "Developer"
+    }
+  ],
+  "replace": {
+    "static_info_tables_de": "*",
+    "sjbr/static_info_tables_de": "*",
+    "typo3-ter/static-info-tables-de": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "6.2.0-7.6.99",
+    "sjbr/static-info-tables": "^6.3.9"
+  }
+}
